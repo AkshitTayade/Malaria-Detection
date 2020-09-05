@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
+
+body {
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.80857;
+}
+
+ul li{
+    list-style-type: none;
+  }
+  
+  ul{
+    padding-left: 0;
+  }
+html, body{
+    height: 100%;
+}
+
+
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+    transition: all .3s ease-in-out;
+}
+
+/*------------------------------------------------------------------
+    HEADER
+-------------------------------------------------------------------*/
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #ffffff;
+	letter-spacing: 1px;
+	font-size: 14px;
+	position: relative;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #8f8e8e;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+	#mainNav {
+		background-color: #333333;
+	}
+	.navbar-dark .navbar-brand{
+		width: 55%;
+	}
+	.navbar-dark .navbar-nav .nav-link::after{
+		display: none;
+	}
+	.navbar-dark .navbar-toggler{
+		color: rgba(255,255,255);
+		border-color: rgba(255,255,255);
+	}
+}
+@media (max-width: 767px) {
+	#mainNav {
+		background-color: #333333;
+	}
+	.navbar-dark .navbar-brand{
+		width: 55%;
+	}
+	.navbar-dark .navbar-nav .nav-link::after{
+		display: none;
+	}
+	.navbar-dark .navbar-toggler{
+		color: rgba(255,255,255);
+		border-color: rgba(255,255,255);
+	}
+}
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+	#mainNav {
+		background-color: #333333;
+	}
+	.navbar-dark .navbar-brand{
+		width: 55%;
+	}
+	.navbar-dark .navbar-nav .nav-link::after{
+		display: none;
+	}
+	.navbar-dark .navbar-toggler{
+		color: rgba(255,255,255);
+		border-color: rgba(255,255,255);
+	}
+	
+}
+.jumbotron
+{
+	height: 320px; 
+	padding-top: 70px; 
+	background-image: url('https://cdn.the-scientist.com/assets/articleNo/67536/aImg/37811/rbcs-l.jpg');
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.89;
+}
+.title
+{
+	letter-spacing: 1px; 
+	text-align: center; 
+	font-size: 36px;
+	margin-top: 50px;
+	color: rgb(253, 244, 244);
+}
+.discription
+{
+	color:rgb(253, 244, 244);
+	font-size: 30px;
+	text-align: center;
+	margin-top:-50px ;
+}
+@media screen and (max-width: 760px)
+{
+	.title
+	{
+		font-size:22px ;
+	}
+	.discription
+	{
+		margin-top:-50px ;
+		font-size:18px ;
+	}
+	.dropzone-desc  
+	{
+		font-size: 15px !important;
+	}
+	.dropzone-desc  p
+	{
+		margin-top: -10px;
+	}
+
+}
+
+
+.box {
+	position: relative;
+	background: #ffffff;
+	width: 100%;
+  }
+  
+  .box-header {
+	color: #444;
+	display: block;
+	padding: 10px;
+	position: relative;
+	border-bottom: 1px solid #f4f4f4;
+	margin-bottom: 10px;
+  }
+  
+  .box-tools {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+  }
+  
+  .dropzone-wrapper {
+	border: 2px dashed #91b0b3;
+	color: #92b0b3;
+	position: relative;
+	height: 150px;
+  }
+  
+.dropzone-desc {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	width: 40%;
+	top: 40px;
+	font-size: 16px;
+}
+  
+.dropzone,
+.dropzone:focus {
+	position: absolute;
+	outline: none !important;
+	width: 100%;
+	height: 150px;
+	cursor: pointer;
+	opacity: 0;
+  }
+  
+.dropzone-wrapper:hover,
+.dropzone-wrapper.dragover {
+	background: #ecf0f5;
+  }
+  
+.preview-zone {
+	text-align: center;
+  }
+  
+.preview-zone .box {
+	box-shadow: none;
+	border-radius: 0;
+	margin-bottom: 0;
+  }
+.btn
+{
+	float: right;
+	font-size: 15px;
+	padding: 10px 10px;
+	background-color: #333333;
+}
+
+.btn:hover
+{
+	background-color: #444;
+}
