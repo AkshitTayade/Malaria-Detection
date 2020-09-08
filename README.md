@@ -9,15 +9,15 @@ Let us first understand how actually is Malaria diagnosis  performed in medical 
 
 1.	**Image processing** 
 
-     We will read few of the cell samples from the folder and perform some processing techniques. 
+     We will read few of the cell samples from the folder and perform some processing techniques. <br />
 
-    •	Firstly read the cell image using OpenCV’s cv2.imread( ) function. 
-    •	Then convert the RGB format to grayscale image. 
-    •	After that apply any blurring technique, here I have used Gaussian Kernel for smoothening the image. 
-    •	Then apply thresholding. In thresholding, each pixel value is compared with the threshold value. If the pixel value is smaller than the threshold, it is set         to 0, otherwise, it is set to a maximum value (generally 255). 
-    •	After this the final process is to find contours. Once you have the contours, find the length of this contours. 
-    •	We are considering only 5 different length of contours and then sorting them accordingly.
-    •	* *Here we can make an assumption that if the cell is Infected then we would practically find more contours than compared to Uninfected cell sample.* *
+    •	Firstly read the cell image using OpenCV’s cv2.imread( ) function. <br />
+    •	Then convert the RGB format to grayscale image. <br />
+    •	After that apply any blurring technique, here I have used Gaussian Kernel for smoothening the image. <br />
+    •	Then apply thresholding. In thresholding, each pixel value is compared with the threshold value. If the pixel value is smaller than the threshold, it is             set to 0, otherwise, it is set to a maximum value (generally 255). <br />
+    •	After this the final process is to find contours. Once you have the contours, find the length of this contours. <br />
+    •	We are considering only 5 different length of contours and then sorting them accordingly.<br />
+    •	* *Here we can make an assumption that if the cell is Infected then we would practically find more contours than compared to Uninfected cell sample.* *<br />
 
 2.	**Making dataset file .csv**<br />
     Go to [file](https://github.com/AkshitTayade/Malaria-Detection/blob/master/make_csv.py)
