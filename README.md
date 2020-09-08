@@ -39,7 +39,7 @@ As we have seen the process of Image processing above, Now we will run the same 
 •	Finally just pass the array to our classifier for predictions. There is your predicted answer of your model !
 
 
-**Technologies needed : **
+>Technologies needed:
 
-Backend: Scikit-learn, NumPy, Pandas, OpenCV, Joblib
-Frontend: html, CSS, bootstrap, JavaScript, jQuery
+>Backend: Scikit-learn, NumPy, Pandas, OpenCV, Joblib
+>Frontend: html, CSS, bootstrap, JavaScript, jQuery
