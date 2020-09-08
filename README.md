@@ -20,24 +20,23 @@ Let us first understand how actually is Malaria diagnosis  performed in medical 
     •	* *Here we can make an assumption that if the cell is Infected then we would practically find more contours than compared to Uninfected cell sample.* *<br />
 
 2.	**Making dataset file .csv**<br />
-    Go to [file](https://github.com/AkshitTayade/Malaria-Detection/blob/master/make_csv.py)
-    As we have seen the process of Image processing above, Now we will run the same method over all training cell samples ( i.e. Parasitized and Uninfected ) and       create a .csv file.
+    Go to [file](https://github.com/AkshitTayade/Malaria-Detection/blob/master/make_csv.py)<br />
+    As we have seen the process of Image processing above, Now we will run the same method over all training cell samples ( i.e. Parasitized and Uninfected ) and       create a .csv file.<br />
 
 3.	**Creating ML Model**
 
-    •	Here I have chosen Random Forest Classifier as my algorithm for detection. 
-    •	Then by the process of cross validation, choose the optimal values of n_estimators and max_depth. 
-    •	Then fitted the model with the dataset we create above. 
-    •	Also for checking the progress of the model, we have classification report and accuracy score.
-    •	* *To minimize the computational power and time, I have saved the model using joblib.* *
+    •	Here I have chosen Random Forest Classifier as my algorithm for detection. <br />
+    •	Then by the process of cross validation, choose the optimal values of n_estimators and max_depth. <br />
+    •	Then fitted the model with the dataset we create above. <br />
+    •	Also for checking the progress of the model, we have classification report and accuracy score.<br />
+    •	* *To minimize the computational power and time, I have saved the model using joblib.* *<br />
 
 
 4.	**Predicting Test Cell Images**
 
-    •	Perform the Image processing technique on required cell sample. 
-    •	Then get the sorted list of areas of contours detected. Remember our model requires 2D array, so convert the list into NumPy 2D array. 
-    •	Finally just pass the array to our classifier for predictions. There is your predicted answer of your model !
-
+    •	Perform the Image processing technique on required cell sample. <br />
+    •	Then get the sorted list of areas of contours detected. Remember our model requires 2D array, so convert the list into NumPy 2D array. <br />
+    •	Finally just pass the array to our classifier for predictions. There is your predicted answer of your model !<br />
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
