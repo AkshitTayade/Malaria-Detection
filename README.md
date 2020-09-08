@@ -7,7 +7,7 @@ Let us first understand how actually is Malaria diagnosis  performed in medical 
 
 > Same Idea will be applied in your project.
 
-**1.	Image processing **
+1.	Image processing 
 
 We will read few of the cell samples from the folder and perform some processing techniques. 
 
