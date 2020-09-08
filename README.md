@@ -7,6 +7,8 @@ Let us first understand how actually is Malaria diagnosis  performed in medical 
 
 > Same Idea will be applied in this project.
 
+> [Download Cell Samples](https://drive.google.com/file/d/1Yh4CWRH_Yx9ukwNQG-tNBlGXkk214GjC/view?usp=sharing)<br />
+
 1.	**Image processing** 
 
      We will read few of the cell samples from the folder and perform some processing techniques. <br />
@@ -24,6 +26,7 @@ Let us first understand how actually is Malaria diagnosis  performed in medical 
     As we have seen the process of Image processing above, Now we will run the same method over all training cell samples ( i.e. Parasitized and Uninfected ) and       create a .csv file.<br />
 
 3.	**Creating ML Model**
+     Go to [file](https://github.com/AkshitTayade/Malaria-Detection/blob/master/model.py)<br />
 
     •	Here I have chosen Random Forest Classifier as my algorithm for detection. <br />
     •	Then by the process of cross validation, choose the optimal values of n_estimators and max_depth. <br />
@@ -33,6 +36,7 @@ Let us first understand how actually is Malaria diagnosis  performed in medical 
 
 
 4.	**Predicting Test Cell Images**
+     Go to [file](https://github.com/AkshitTayade/Malaria-Detection/blob/master/predictions.py)<br />
 
     •	Perform the Image processing technique on required cell sample. <br />
     •	Then get the sorted list of areas of contours detected. Remember our model requires 2D array, so convert the list into NumPy 2D array. <br />
