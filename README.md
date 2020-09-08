@@ -1,13 +1,13 @@
 # Malaria Detection Using Machine Learning
 
-Let us first understand how actually is Malaria diagnosis  performed in medical field.
+##Let us first understand how actually is Malaria diagnosis  performed in medical field.
 
 *To diagnose malaria under a microscope, a drop of the patient's blood is applied to a glass slide, which is then immersed in a staining solution to make parasites more easily visible under a conventional light microscope, usually with a 100× oil objective. The actual microscopic examination of a single blood slide, including quantitative parasite detection and species identification, takes a trained microscopist 15–30 minutes.*
 
 
 > Same Idea will be applied in this project.
 
-#1.	**Image processing** 
+1.	**Image processing** 
 
 We will read few of the cell samples from the folder and perform some processing techniques. 
 
