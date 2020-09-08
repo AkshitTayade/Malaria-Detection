@@ -41,5 +41,5 @@ As we have seen the process of Image processing above, Now we will run the same 
 
 >Technologies needed:
 
->Backend: Scikit-learn, NumPy, Pandas, OpenCV, Joblib
->Frontend: html, CSS, bootstrap, JavaScript, jQuery
+Backend: Scikit-learn, NumPy, Pandas, OpenCV, Joblib
+Frontend: html, CSS, bootstrap, JavaScript, jQuery
