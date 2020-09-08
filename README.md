@@ -20,7 +20,7 @@ Let us first understand how actually is Malaria diagnosis  performed in medical 
     •	* *Here we can make an assumption that if the cell is Infected then we would practically find more contours than compared to Uninfected cell sample.* *
 
 2.	**Making dataset file .csv**
-    File: [ file ] (https://github.com/AkshitTayade/Malaria-Detection/blob/master/make_csv.py)
+    File: [file] (https://github.com/AkshitTayade/Malaria-Detection/blob/master/make_csv.py)
     As we have seen the process of Image processing above, Now we will run the same method over all training cell samples ( i.e. Parasitized and Uninfected ) and       create a .csv file.
 
 3.	**Creating ML Model**
