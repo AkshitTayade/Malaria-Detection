@@ -2,12 +2,12 @@
 
 Let us first understand how actually is Malaria diagnosis  performed in medical field.
 
-* *To diagnose malaria under a microscope, a drop of the patient's blood is applied to a glass slide, which is then immersed in a staining solution to make parasites more easily visible under a conventional light microscope, usually with a 100× oil objective. The actual microscopic examination of a single blood slide, including quantitative parasite detection and species identification, takes a trained microscopist 15–30 minutes.
+*To diagnose malaria under a microscope, a drop of the patient's blood is applied to a glass slide, which is then immersed in a staining solution to make parasites more easily visible under a conventional light microscope, usually with a 100× oil objective. The actual microscopic examination of a single blood slide, including quantitative parasite detection and species identification, takes a trained microscopist 15–30 minutes.*
 
 
 > Same Idea will be applied in your project.
 
-**1.	Image processing 
+**1.	Image processing **
 
 We will read few of the cell samples from the folder and perform some processing techniques. 
 
@@ -19,11 +19,11 @@ We will read few of the cell samples from the folder and perform some processing
 •	We are considering only 5 different length of contours.
 •	* *Here we can make an assumption that if the cell is Infected then we would practically find more contours than compared to Uninfected cell sample.* *
 
-**2.	Making dataset file .csv
+**2.	Making dataset file .csv **
 
 As we have seen the process of Image processing above, Now we will run the same method over all training cell samples ( i.e. Parasitized and Uninfected ) and create a .csv file.
 
-**3.	Creating ML Model
+**3.	Creating ML Model **
 
 •	Here I have chosen Random Forest Classifier as my algorithm for detection. 
 •	Then by the process of cross validation, choose the optimal values of n_estimators and max_depth. 
@@ -34,14 +34,14 @@ As we have seen the process of Image processing above, Now we will run the same 
 
 
 
-**4.	Predicting Test Cell Images
+**4.	Predicting Test Cell Images **
 
 •	Perform the Image processing technique on required cell sample. 
 •	Then get the sorted list of areas of contours detected. Remember our model requires 2D array, so convert the list into NumPy 2D array. 
 •	Finally just pass the array to our classifier for predictions. There is your predicted answer of your model !
 
 
-**Technologies needed :
+**Technologies needed : **
 
 Backend: Scikit-learn, NumPy, Pandas, OpenCV, Joblib
 Frontend: html, CSS, bootstrap, JavaScript, jQuery
