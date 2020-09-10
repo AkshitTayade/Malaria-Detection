@@ -1,6 +1,11 @@
 # Malaria Detection Using Machine Learning
 
-Let us first understand how actually is Malaria diagnosis  performed in medical field.
+Manual diagnosis of blood smears is an intensive manual process that requires expertise in classifying and counting parasitized and uninfected cells. This process may not scale well, especially in regions where the right expertise is hard to find. Some advancements have been made in leveraging state-of-the-art image processing and analysis techniques to extract hand-engineered features and build machine learning-based classification models.
+
+This project talks about one of the easier way of implementing medical analysis process via Machine learning algorithm. Step-by-Step guide is provided below.
+
+
+**Let us first understand how actually is Malaria diagnosis  performed in medical field.**
 
 *To diagnose malaria under a microscope, a drop of the patient's blood is applied to a glass slide, which is then immersed in a staining solution to make parasites more easily visible under a conventional light microscope, usually with a 100× oil objective. The actual microscopic examination of a single blood slide, including quantitative parasite detection and species identification, takes a trained microscopist 15–30 minutes.*
 
