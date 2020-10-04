@@ -4,7 +4,7 @@ from predictions import result
 
 app = Flask(__name__, template_folder='templates')
 app.secret_key = 'akshittayade'
-
+app.set("port", 8080)
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 @app.route('/')
