@@ -7,4 +7,4 @@ opencv-python==4.2.0.34
 requests==2.22.0
 scikit-learn==0.22.1
 pandas==1.1.1
-libgtk2.0-dev
+libgtk2.0-dev==2.24.10
