@@ -1,8 +1,6 @@
 # Malaria Detection Using Machine Learning
 
- <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
-       <source src="https://github.com/AkshitTayade/Malaria-Detection/blob/master/static/ML.mp4" type="video/mp4" />
- </video>
+<img alt="GIF" src="https://github.com/AkshitTayade/Malaria-Detection/blob/master/static/ML.giff" width="600" height="400" />
 
 Manual diagnosis of blood smears is an intensive manual process that requires expertise in classifying and counting parasitized and uninfected cells. This process may not scale well, especially in regions where the right expertise is hard to find. Some advancements have been made in leveraging state-of-the-art image processing and analysis techniques to extract hand-engineered features and build machine learning-based classification models.
 
